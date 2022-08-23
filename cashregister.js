@@ -17,7 +17,7 @@ function checkValidity(){
             displayAmount(calculateChange)
         }
         else{
-            result("Do you wanna wash plates?..")
+            result("Do you wanna wash plates?.")
         }
     }else{
         result("give atleast right amount")
