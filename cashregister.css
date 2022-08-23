@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color:#f7fee7;
+    
+}
+
+.container {
+    background-color:#d9f99d;
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+    padding: 0.9rem 0rem;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+}
+.container p {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.lbl{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.container input {
+    padding: 1.1rem;
+    height: 0rem;
+    width: 40%;
+    margin-top: 1rem;
+    max-width: 400px;
+    margin-bottom: 0rem;
+    margin-left: 0.5rem;
+    border-radius: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#check-btn {
+    margin-top: 1.3rem;
+    margin-left: 3rem;
+    border-radius: 15px;
+    font-size: 17px;
+    padding: 0.5rem 2rem;
+    cursor:pointer;
+}
+#result{
+    color:#14213d;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.return p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.tableDesign{
+    padding: 2rem 1rem;
+    margin: auto;
+    max-width: 450px;
+}
+
+.tableDesign table, td, th{
+    padding: 0.6rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+.footer {
+    margin: 3rem 2rem 0rem 2rem;
+    border-top: 2px solid black;
+}
+
+.footer div {
+    color: black;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 29px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer .with-para {
+    padding-inline: 0rem;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
