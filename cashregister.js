@@ -9,18 +9,22 @@ checkbtn.addEventListener("click",checkValidity);
 
 function checkValidity(){
     hideMessage();
-    if ( billAmount.value > 0)
+    if ( billAmount.value > 0 )
     {
-        if ( givenAmount.value >= billAmount.value){
-            result("you have change left")
+        if (   Number(givenAmount.value)  > Number(billAmount.value)){
+            
             const calculateChange = givenAmount.value - billAmount.value;
+            result("you have change left with "+calculateChange +" Rs...")
             displayAmount(calculateChange)
+        }else if(givenAmount.value === billAmount.value){
+            result("You have no exchange left")
+            
         }
         else{
-            result("Do you wanna wash plates?.")
+            result("Do you wanna wash plates? Or\n  GIVE SOME CASH")
         }
     }else{
-        result("give atleast right amount")
+        result("give correct amount")
     }
 }
 
