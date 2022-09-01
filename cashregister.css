@@ -66,13 +66,18 @@ body {
 }
 
 .tableDesign{
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     margin: auto;
-    max-width: 450px;
+    max-width: 480px;
+}
+.tableDesign th{
+    padding:1rem;
+    width:40px;
+    border: 1px solid black;
 }
 
-.tableDesign table, td, th{
-    padding: 0.6rem;
+.tableDesign table, td{
+    padding: 0.5rem;
     border: 1px solid black;
     border-collapse: collapse;
 }
